@@ -46,12 +46,12 @@
       <button><a href="../Search/search.html"><i class="fa-solid fa-magnifying-glass"></i></a></button>
     </div>
   </nav>
-
+  <!-- 수정중!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
   <style>
-    /* .productInfo{
+    .productInfo{
       display: flex;
-    } */
+    }
     .productPicture img{
         width: 250px;
         height: 250px;
@@ -75,6 +75,11 @@
     .swiper-button-next{
       color: gray;
     }
+    .productContents{
+      position: relative;
+      left: 55%;
+      top: -39%;
+    }
   </style>
 
       <!-- 여기 코드 작성 해주세요 !!! -->
@@ -82,6 +87,7 @@
             <div class="sub-title">
                 <h1 class="sub-name">제품 리뷰</h1>
             </div> 
+
 
             <div class="productInfo">
               <div class="productPicture">
@@ -96,7 +102,7 @@
                   <div class="swiper-button-prev"></div>
                   <div class="swiper-button-next"></div>
                 </div> 
-              <div id="productContents">
+              <div class="productContents">
                 <div>
                   <h3>레드블레미쉬 크림</h3>
                   <p>닥터지</p>
@@ -113,10 +119,14 @@
                   <h5>용량</h5>
                   <h6>100ml</h6>
                 </div>
+                <div>
                   <h5>용량</h5>
                   <h6>25000원</h6>
                 </div>
-                <a href="#"><button>리뷰작성하기</button></a>
+                <div><a href="../Product/ReviewWrite.html"><button>리뷰작성하기</button></a></div>
+
+                
+              
               </div>
             </div>
 
@@ -168,7 +178,7 @@
         <div class="container">
           <div class="first-line">
             <div class="fot-a">
-              <a href="#" onclick="window.open(`Home.html`, '회사소개','width=500px, height=700px'); return false">회사소개</a>
+              <a href="#" onclick="window.open(`../Main/Home.html`, '회사소개','width=500px, height=700px'); return false">회사소개</a>
               <span> | </span>
               <a href="#">이용약관</a>
               <span> | </span>
